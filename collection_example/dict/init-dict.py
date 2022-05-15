@@ -23,6 +23,13 @@ def init_dict():
     g = dict.fromkeys(range(5), 'v')
     print(g)
 
+    keys = (1, 2, 3, 4)
+    value = ('a', 'b', 'c')
+    my_dict = dict.fromkeys(keys, value)
+    print(my_dict)
+    my_dict = dict.fromkeys(keys)
+    print(my_dict)
+
     print("finish init demo")
 
 
